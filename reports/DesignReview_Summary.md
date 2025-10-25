@@ -5,16 +5,28 @@ Design Review Summary
 Project: Engine Fault Simulation & Failure Mode Prediction
 Engineer: Oluwatomi Oladunni
 
-Verification and Validation Results:
-  - Accuracy: 0.265
-  - Recall: 0.262
-  - Precision: 0.266
+Verification & Validation Results:
+  - Accuracy: 0.305
+  - Recall: 0.307
+  - Precision: 0.306
 
 Top Contributing Features:
-  Vibration_X, Temperature_(°C), Vibration_Z
+  x5, x3, x0
+Confusion Matrix:
+[[15 14 13 10]
+ [12 16 16  5]
+ [11 12 14 16]
+ [11  9 10 16]]   
+Classification Report:
+              precision    recall  f1-score   support
 
-Notes:
-  Model validated using balanced class weights and reproducible seed.
-  Results align with Failure Mode Avoidance (FMA)
-  and System Capability Engineering (SCE) principles.
+           0       0.31      0.29      0.30        52
+           1       0.31      0.33      0.32        49
+           2       0.26      0.26      0.26        53
+           3       0.34      0.35      0.34        46
+
+    accuracy                           0.30       200
+   macro avg       0.31      0.31      0.31       200
+weighted avg       0.30      0.30      0.30       200
+
 ------------------------------------------------------------
