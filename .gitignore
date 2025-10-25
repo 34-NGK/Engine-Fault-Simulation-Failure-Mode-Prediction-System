@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Data / Models
+data/*.csv
+results/*.pkl
+results/*.png
+results/evaluation/*.png
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
